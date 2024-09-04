@@ -1,5 +1,5 @@
 import BlogCard from "./BlogCard";
-
+import React from "react";
 function List() {
   const blogList = [
     {
@@ -54,12 +54,12 @@ function List() {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {blogList.map((blog, listss) => (
+      {blogList.map((list, listss) => (
         <BlogCard
           key={listss}
-          image={blog.image}
-          title={blog.title}
-          description={blog.description}
+          image={list.image}
+          title={list.title}
+          description={list.description}
         />
       ))}
     </div>

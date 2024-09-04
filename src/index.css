@@ -52,7 +52,8 @@ button {
   color: #ffffff;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ffffff;
+  color: #f9f9f9;
 }
 button:focus,
 button:focus-visible {
@@ -75,18 +76,16 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
+
   gap: 20px;
 }
 .col {
-  flex-basis: 32%;
-  width: 50%;
   margin-bottom: 50px;
   padding: 20px 10px;
   transition: 0.6s;
   text-align: center;
 }
 .col:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 5px 5px 15px 1px rgb(57, 55, 55);
 }
